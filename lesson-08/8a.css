@@ -1,0 +1,24 @@
+.name-box{
+    border-width: 1px;
+    border-style: solid;
+    border-color: grey;
+    display: block;
+    margin-bottom: 6px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 2px;
+}
+
+.email-box{
+    display: block;
+    border-width: 1px;
+    border-style: solid;
+    border-color: grey;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 2px;
+}

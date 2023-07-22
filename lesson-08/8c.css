@@ -1,0 +1,24 @@
+.google-logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+.text-box{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 500px;
+    font-size: 15px;
+    border-radius: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: lightgray;
+}
+.text-box:hover{
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.2);
+}
