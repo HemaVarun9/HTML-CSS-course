@@ -1,0 +1,131 @@
+body{
+    margin: 20px;
+}
+
+.mac{
+    display: flex;
+    background:no-repeat url(./mac.png) 0 0 / cover;
+    width: 1520px;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0px 0 0px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+
+.mac::before{
+    content: '';
+    position: absolute;
+    inset: 1px;
+    background-color: #000;
+    border-radius: 4px;
+    height: 704px;
+    width: 1135px;
+    margin-left: 339px;
+    margin-top: 75px;
+}
+
+.nav-bar{
+    position: absolute;
+    inset: 4px;
+    width: 1126px;
+    height: 100px;
+    background-color: #6F6AF7;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 325px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-left: 20px;
+}
+
+.left-section{
+    color: #FFF;
+    font-family: Delius Unicase;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 220px;
+}
+
+.middle-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.Home{
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.About{
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Information{
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.More{
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.right-section{
+    width: 80px;
+    font-size: 55px;
+    color: #FFF;
+}
+
+.search-box{
+    border: none;
+    padding: 0 10px;
+    background-color: #FFF;
+    border-radius: 20px;
+}
+
+.search{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 160px;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    padding-left: 12px;
+    color: #ADADAD;
+}
+
+.search:focus{
+    outline: none;
+}
+
