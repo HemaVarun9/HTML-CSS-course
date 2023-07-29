@@ -3,6 +3,22 @@
     border-radius: 6px;
   }
 
+  .thumbnail-row{
+    margin-bottom: 12px;
+    position: relative;
+  }
+
+  .video-time{
+    position: absolute;
+    background-color: black;
+    color: white;
+    bottom: 10px;
+    right: 8px;
+    font-size: 20px;
+    font-family: Roboto, arial;
+    padding: 6px;
+    border-radius: 5px;
+  }
 
   .video-title {
     margin-top: 0;
@@ -29,9 +45,6 @@
     border-radius: 50px;
   }
 
-  .thumbnail-row{
-    margin-bottom: 12px;
-  }
 
   .video-author{
     margin-bottom: 4px;
