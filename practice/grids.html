@@ -4,18 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        main{
+            display: grid;
+            grid-template-areas: 
+            "header header header header header"
+            "sidebar section section section ads"
+            "sidebar section section section ."
+            "footer footer footer footer footer";
+        }
+        header{
+            grid-area: header;
+            background-color: black;
+            color: #FFF;
+            font-size: 40px;
+            text-align: center;
+            padding: 20px 40px;
+        }
+        #sidebar{
+            grid-area: sidebar;
+            background-color: palegoldenrod;
+            height: 400px;
+        }
+        #content{
+            grid-area: section;
+        }
+        #ads{
+            grid-area: ads;
+        }
+        footer{
+            grid-area: footer;
+        }
+    </style>
 </head>
 <body>
     <main>
         <header>Header</header>
-    <aside>Sidebar</aside>
-    <section>
-        <article>A</article>
-        <article>B</article>
-        <article>C</article>
-    </section>
-    <aside>Ads</aside>
-    <footer>Footer</footer>
+        <aside id="sidebar">Sidebar</aside>
+        <section id="content">
+            <article>A</article>
+            <article>B</article>
+            <article>C</article>
+        </section>
+        <aside id="ads">Ads</aside>
+        <footer>Footer</footer>
     </main>
 </body>
 </html>
