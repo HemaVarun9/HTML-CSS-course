@@ -5,7 +5,8 @@
     align-items: center;
     height: 80px;
     position: fixed;
-    width: 1800px;
+    width: 100%;
+    z-index: 100;
 }
 .left-section{
     color: #FFF;
@@ -84,40 +85,26 @@
     font-weight: 400;
     line-height: normal;
 }
+
+
 .grid{
     display: grid;
-    grid-template-columns: 600px 902px 10px;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
     padding-top: 180px;
-    column-gap: 60px;
+    column-gap: 50px;
 }
-.glider{
-    display: flex;
-    flex-direction: column;
-}
-.icon-bar{
-    position: sticky;
-    float: right;
-    top: 100px;
-    margin-top: 50px;
-}
-.facebook,.twitter{
-    width: 85px;
-}
-.whatsapp{
-    border-radius: 11px;
-    border: 3px solid #000;
-    background: #FFF;
-    width: 80px;
-}
+
 .image{
     margin: 0;
     padding: 0;
-    width: 600px;
+    width: 450px;
+
 }
 .picture-1{
     width: 400px;
     height: 516px;
-    margin-left: 200px;
+    margin-left: 50px;
     object-fit: cover;
     border-radius: 20px;
 }
@@ -125,16 +112,19 @@
     border-radius: 20px;
     padding: 15px;
     font-size: 25px;
+    margin-right: 100px;
 }
 .textarea:focus{
     outline: none;
 }
 .grid2{
     display: grid;
-    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
     margin-top: 50px;
     column-gap: 80px;
     margin-left: 150px;
+    margin-right: 150px;
     padding: 0;
 }
 p{
